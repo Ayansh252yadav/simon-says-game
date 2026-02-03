@@ -33,3 +33,9 @@ body{
 .userFlash{
     background-color: rgb(111, 196, 111);
 }
+
+button {
+    padding: 12px 20px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
