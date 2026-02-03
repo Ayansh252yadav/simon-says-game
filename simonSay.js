@@ -8,11 +8,18 @@ let level = 0;
 let highScore=0;
 let h2 = document.querySelector("h2");
 let h4=document.querySelector("h4");
-document.addEventListener("keypress", function () {
-    // let h2=document.querySelector("h2");
-    // h2.innerText="Game has Started";
-    if (started == false) {
-        console.log("game started");
+// document.addEventListener("keypress", function () {
+//     // let h2=document.querySelector("h2");
+//     // h2.innerText="Game has Started";
+//     if (started == false) {
+//         console.log("game started");
+//         started = true;
+//         levelUp();
+//     }
+// });
+
+document.addEventListener("click", function () {
+    if (!started) {
         started = true;
         levelUp();
     }
